@@ -3,12 +3,12 @@ import random
 TEST_CASES = 5
 
 PET_TYPES = ['C', 'D']
-CATS = 6
-DOGS = 6
-VOTERS = 50
+CATS = 5
+DOGS = 5
+VOTERS = 200
 PARAMS = [CATS, DOGS, VOTERS]
 
-f = open('../testLong.txt', 'w')
+f = open('../test.txt', 'w')
 
 """ Write number of test cases """
 f.write(str(TEST_CASES) + '\n')
